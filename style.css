@@ -2378,6 +2378,21 @@
       background-position: right 18% bottom 42%;
     }
   }
+  .max-\[1921px\]\:left-60 {
+    @media (width < 1921px) {
+      left: calc(var(--spacing) * 60);
+    }
+  }
+  .max-\[1920px\]\:left-40 {
+    @media (width < 1920px) {
+      left: calc(var(--spacing) * 40);
+    }
+  }
+  .max-\[1920px\]\:left-50 {
+    @media (width < 1920px) {
+      left: calc(var(--spacing) * 50);
+    }
+  }
   .max-\[1920px\]\:left-60 {
     @media (width < 1920px) {
       left: calc(var(--spacing) * 60);
